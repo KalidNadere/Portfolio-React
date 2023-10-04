@@ -3,7 +3,7 @@ import React from 'react';
 // Importing navigation from local file
 import Navigation from './Navigation';
 
-// 
+// Header function defined
 function Header() {
   return (
     <Header>
