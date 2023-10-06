@@ -6,16 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KalidNadere/Portfolio-React.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KalidNadere/Portfolio-React/issues"
-  },
   "homepage": "https://github.com/KalidNadere/Portfolio-React#readme",
   "dependencies": {
     "react": "^18.2.0",
