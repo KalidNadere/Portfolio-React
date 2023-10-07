@@ -8,7 +8,7 @@ function Project({ project }) {
       <a href={project.demoLink} target='_blank' rel='noopener noreferrer'>
         <img src={project.image} alt={project.title} />
       </a>
-      <p>{project.description}</p>
+      <p className='project-desc'>{project.description}</p>
       <a href={project.demoLink} target='_blank' rel='noopener noreferrer'>
       </a>
     </div>

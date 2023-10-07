@@ -13,10 +13,10 @@ function Header() {
       <Navigation />
     </header>
     </section>
-    <section>
-      <div>
+    <section className='welcome'>
+      <div >
         <h2>Welcome</h2>
-        <p>
+        <p id='intro'>
           Welcome to my portfolio page built with React. Here,
           you can find a small sample of the projects I have worked on over
           the course of the program.

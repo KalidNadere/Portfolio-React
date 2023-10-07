@@ -1,7 +1,4 @@
 import React from 'react';
-import { MdFoundation } from "react-icons/md";
-import { GrTechnology } from "react-icons/gr";
-import { GrDocumentPerformance } from "react-icons/gr";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,7 +21,6 @@ function Resume() {
           <h4 className="column-text">
             <ul>
               <li className="logo">
-                <MdFoundation />
               </li>
               <li>HTML5</li>
               <li>CSS</li>
@@ -42,7 +38,6 @@ function Resume() {
           <h4 className="column-text">
             <ul>
               <li className="logo">
-                <GrTechnology />
               </li>
               <li>Node.Js</li>
               <li>Jest</li>
@@ -59,7 +54,6 @@ function Resume() {
           <h4 className="column-text">
             <ul>
               <li className="logo">
-                <GrDocumentPerformance />
               </li>
               <li>NoSQL</li>
               <li>Progressive Web Applications (PWA)</li>
