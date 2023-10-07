@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 function Contact() {
   const [formData, setFormData] = useState({
     name: '',
-    email: 'kalid.nadere@gmail.com',
+    email: '',
     message: '',
   });
 
-  // handleChange function event hander for input element (name, email, message)
+  // handleChange function event handler for input element (name, email, message)
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -20,7 +20,6 @@ function Contact() {
   // handleSubmit function to prevent default form submission, using e.preventDefault
   const handleSubmit = (e) => {
     e.preventDefault();
-
     console.log('Form submitted with data:', formData);
   };
 
@@ -41,10 +40,21 @@ function Contact() {
           />
           </div>
           <div>
+          <label htmlFor='email'>Email</label>
+          <input
+            type='email'
+            id='email'
+            name='email'
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+          <div>
             <label htmlFor='message'>Message</label>
             <textarea
             id='message'
-            name='name'
+            name='message'
             value={formData.message}
             onChange={handleChange}
             required

@@ -10,10 +10,6 @@ function Project({ project }) {
       </a>
       <p>{project.description}</p>
       <a href={project.demoLink} target='_blank' rel='noopener noreferrer'>
-        Demo
-      </a>
-      <a href={project.githubLink} target='_blank' rel='noopener noreferrer'>
-        Github
       </a>
     </div>
   );

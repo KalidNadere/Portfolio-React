@@ -14,7 +14,7 @@ button {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #68aab4;
 }
 
 /* Global styles */
@@ -22,12 +22,12 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-  background-color: #333;
+  background-color: #0c5062;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -49,7 +49,8 @@ nav ul li {
 nav a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -64,13 +65,132 @@ section {
   margin-bottom: 40px;
 }
 
-h2 {
-  font-size: 24px;
+h1 {
   margin-bottom: 10px;
+  text-indent: 10px;
 }
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-indent: 10px;
+}
+
+h4 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-indent: 10px;
+}
+
+/*Resume section*/
+
+.resume-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.resume-body>* {
+  flex: 1;
+  margin: 150px;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 30px 0 0 60px;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+.article {
+  margin: 10px;
+  margin-bottom: 1em;
+  background-color: #0e4656;
+}
+
+.resume-body img {
+
+  height: auto;
+}
+
+.download-icon {
+  color: black;
+  font-size: 1.7em;
+  transition: color 0.3s;
+}
+
+.download-icon:hover {
+  color: grey;
+  opacity: 0.7;
+  transition: .5s ease;
+}
+
+.download-info {
+  flex: 3 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.column-title {
+  color: #d0dad8;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.column-text {
+  color: #cbe0dc;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.column-text ul li {
+  list-style: none;
+}
+
+.logo {
+  color: #e1efef;
+  font-size: 2rem; 
+}
+
+.resume {
+  text-align: center;
+  font-size: 20px;
+
+  .two-column-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Create two columns with equal width */
+    gap: 20px; /* Adjust the gap between columns as needed */
+  }
+  
+  .two-column-list ul {
+    list-style-type:circle;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .two-column-list li {
+    margin: 5px 0; /* Adjust the margin for list items as needed */
+  }
+}
+
+/*End resume section*/
+
 
 p {
   line-height: 1.5;
+  text-indent: 10px;
+  font-size: 18px;
 }
 
 form div {
@@ -109,7 +229,7 @@ button:hover {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #333;
+  background-color: #0c5062;
   color: #fff;
 }
 

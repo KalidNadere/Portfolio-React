@@ -11,7 +11,6 @@ function Portfolio() {
       image: require("../assets/portfolio/movie-buff.png"),
       description: "Movie Buff is a movie search app that allows users to search for movies by title and provides detailed information such as movie posters, plot summaries, cast details, and trailers for users to watch. ",
       demoLink: "https://bemonn.github.io/Movie-buff/",
-      githubLink: "https://github.com/KalidNadere/Movie-buff",
     },
     // More projects to be added..
   ];
