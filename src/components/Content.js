@@ -1,5 +1,6 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Outlet, Route } from 'react-router-dom'; // Import Outlet and Route
+
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -9,14 +10,13 @@ import Resume from './Resume';
 function Content() {
   return (
     <main>
-      {/* Switch component used to render first child "Route", that matches current location */}
-      <switch>
-        <Route path="/about" component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-        <Redirect to="/about" />
-      </switch>
+      {/* Used Outlet to render nested routes */}
+      <Outlet />
+        {/* Defined routes */}
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
     </main>
   );
 }
