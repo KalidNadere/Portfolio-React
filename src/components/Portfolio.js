@@ -10,7 +10,7 @@ function Portfolio() {
       title: 'MovieBuff',
       image: 'project1.jpg',
       description: 'Movie Buff is a search engine for movies....',
-      siteLink: 'https://bemonn.github.io/Movie-buff/',
+      demoLink: 'https://bemonn.github.io/Movie-buff/',
       githubLink: 'https://github.com/KalidNadere/Movie-buff',
     },
     // More projects to be added..
