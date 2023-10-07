@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -6,10 +7,10 @@ function Footer() {
       <h2>Made by Kalid Nadere©</h2>
       <div className='footer-links'>
         <a href='https://github.com/KalidNadere' target='_blank' rel='noopener noreferrer'>
-        <img src='github-icon.png' alt='Github' /> Github
+        <FaGithub /> Github
         </a>
         <a href='https://www.linkedin.com/in/kalidnadere' target='_blank' ref={'noopener noreferrer'}>
-        <img src='linkedin-icon.png' alt='LinkedIn' />Linkedin
+        <FaLinkedin />Linkedin
         </a>
       </div>
     </footer>
