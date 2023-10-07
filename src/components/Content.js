@@ -1,10 +1,10 @@
-import React from 'react';
-import { Outlet, Route } from 'react-router-dom'; // Import Outlet and Route
+import React from "react";
+import { Outlet, Route } from "react-router-dom"; // Import Outlet and Route
 
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import AboutMe from "../pages/AboutMe";
+import Portfolio from "../pages/Portfolio";
+import Contact from "../pages/Contact";
+import Resume from "../pages/Resume";
 
 // Content function define
 function Content() {
@@ -12,11 +12,11 @@ function Content() {
     <main>
       {/* Used Outlet to render nested routes */}
       <Outlet />
-        {/* Defined routes */}
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
+      {/* Defined routes */}
+      <Route path="/about" element={<AboutMe />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} />
     </main>
   );
 }

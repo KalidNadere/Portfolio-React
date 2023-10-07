@@ -1,18 +1,43 @@
-// React imported to create React components
-import React from 'react';
-// ReactDom imported for rendering React components into DOM
-import ReactDOM from 'react-dom';
-// App imported to represent the root component of the application
-import App from './App';
-// CSS imported to apply styles for the entire application
+import ReactDOM from 'react-dom/client'
+// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 
-// ReactDom function with two arguments
-ReactDOM.render(
-  // React.StrictMode component to help detect potential problemsin the app during development
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  // Reference to DOM element to render the root component
-  document.getElementById('root')
+// import 'bootstrap/dist/css/bootstrap.min.css'
+
+import App from './App';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+
+// Define the accessible routes, and which components respond to which URL
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <AboutMe />,
+    children: [
+      {
+        index: true,
+        element: <AboutMe />,
+      },
+      {
+        path: '/Portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: '/Contact',
+        element: <Contact />,
+      },
+      {
+        path: '/Resume',
+        element: <Resume />,
+      },
+    ],
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <RouterProvider router={router} />
 );

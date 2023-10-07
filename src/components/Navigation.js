@@ -9,17 +9,17 @@ function Navigation() {
     <nav>
       <ul>
         <li>
-          {/* The links use "To" prop to define routes for navigating */}
-          <Link to="/about">About Me</Link>
+          {/* The links use "to" prop to define routes for navigating */}
+          <Link to="/">About Me</Link>
         </li>
         <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/Portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Contact">Contact</Link>
         </li>
         <li>
-          <Link to="/resume">Resume</Link>
+          <Link to="/Resume">Resume</Link>
         </li>
       </ul>
     </nav>

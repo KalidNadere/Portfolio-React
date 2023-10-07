@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 // Initialising form's state using 'useState' hook
 function Contact() {
   const [formData, setFormData] = useState({
-    name: 'Kalid Nadere',
+    name: '',
     email: 'kalid.nadere@gmail.com',
     message: '',
   });
