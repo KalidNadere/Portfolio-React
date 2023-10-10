@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.216c694b.css",
+    "main.js": "/static/js/main.411c3fe3.js",
+    "static/media/movie-buff.png": "/static/media/movie-buff.196238f28cf3aad41357.png",
+    "static/media/my-avatar.png": "/static/media/my-avatar.6911eb0adef496e55775.png",
+    "static/media/Weather-Forecast.png": "/static/media/Weather-Forecast.02ddedca86dcede66c1a.png",
+    "static/media/Fuel-Wise.png": "/static/media/Fuel-Wise.0b6b3014746784ab01fa.png",
+    "static/media/Kalid_Nadere_Resume.pdf": "/static/media/Kalid_Nadere_Resume.f071b0698e2b2bb31d33.pdf",
+    "static/media/Employee-Tracker.png": "/static/media/Employee-Tracker.d7ca4d5ec2659951a45b.png",
+    "index.html": "/index.html",
+    "main.216c694b.css.map": "/static/css/main.216c694b.css.map",
+    "main.411c3fe3.js.map": "/static/js/main.411c3fe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.216c694b.css",
+    "static/js/main.411c3fe3.js"
+  ]
+}
