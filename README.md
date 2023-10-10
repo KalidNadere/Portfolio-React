@@ -23,7 +23,7 @@ Features
 
 ## Deployed Link
 - Please click on the following link to view my page:
-- 
+- https://main--spontaneous-haupia-36776e.netlify.app/ 
 
 
 ![Screenshot 2023-10-10 at 6 26 52 pm](https://github.com/KalidNadere/Portfolio-React/assets/131591052/bd67183b-001e-42d9-b189-f3c3d0a562d4)
