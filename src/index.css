@@ -93,6 +93,7 @@ text-align: center;
 /*Portfolio section*/
 .project {
   text-align: center;
+  margin: 20px 0 0 40px;
 }
 
 h3 {
@@ -248,3 +249,47 @@ footer {
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+/* contact section */
+
+.contact {
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.contact button:hover {
+  color: #F2E3D5;
+  background: #39a6b2;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.contact button {
+  width: 40%;
+  border: none;
+  background: #afc9d5;
+  color: #1c4761;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 25px;
+  border-radius: 10px;
+}
+/* End Contact section */

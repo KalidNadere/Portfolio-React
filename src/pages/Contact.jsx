@@ -25,9 +25,9 @@ function Contact() {
 
   // Return statement to render JSX structure for Contact component
   return (
-    <section>
-      <h2>Contact</h2>
+    <section className='contact'>
       <form onSubmit={handleSubmit}>
+      <h2>Contact</h2>
         <div>
           <label htmlFor='name'>Name</label>
           <input

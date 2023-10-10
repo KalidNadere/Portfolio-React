@@ -1,13 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import myResume from '../assets/files/Kalid_Nadere_Resume.pdf'
 
 function Resume() {
   return (
     <section className='resume'>
       <h2>My Resume</h2>
       <p>
-        <a href='/path-to-resume.pdf' download>
+        <a href={ myResume } download>
         <FontAwesomeIcon icon={faDownload} className='download-icon' />
         </a>
 

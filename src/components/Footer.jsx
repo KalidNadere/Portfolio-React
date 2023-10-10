@@ -9,7 +9,7 @@ function Footer() {
         <a href='https://github.com/KalidNadere' target='_blank' rel='noopener noreferrer'>
         <FaGithub /> Github
         </a>
-        <a href='https://www.linkedin.com/in/kalidnadere' target='_blank' ref={'noopener noreferrer'}>
+        <a href='https://www.linkedin.com/in/kalidnadere' target='_blank' rer={'noopener noreferrer'}>
         <FaLinkedin />Linkedin
         </a>
       </div>

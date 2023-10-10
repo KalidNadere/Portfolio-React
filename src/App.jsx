@@ -12,7 +12,7 @@ function App() {
     <main>
      < Outlet />
     </main>
-    <footer />
+    <Footer />
     </>
   );
 }
